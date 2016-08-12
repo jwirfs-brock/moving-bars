@@ -1,0 +1,51 @@
+
+var data1 = [
+    13,
+    46,
+    25,
+    8,
+    7
+]
+
+var data2 = [
+    12,
+    27,
+    22,
+    32,
+    8
+]
+
+var data3 = [
+    11,
+    34,
+    23,
+    25,
+    7
+]
+
+
+var data1a = [
+{"fuel":"Nuclear","quantity":13},
+{"fuel":"Coal","quantity":46},
+{"fuel":"Natural Gas","quantity":25},
+{"fuel":"Wind/Solar","quantity":8},
+{"fuel":"Other","quantity":7}
+]
+
+var data2a = [
+{"fuel":"Nuclear","quantity":12},
+{"fuel":"Coal","quantity":27},
+{"fuel":"Natural Gas","quantity":22},
+{"fuel":"Wind/Solar","quantity":32},
+{"fuel":"Other","quantity":8}
+]
+
+var data3a = [
+{"fuel":"Nuclear","quantity":11},
+{"fuel":"Coal","quantity":34},
+{"fuel":"Natural Gas","quantity":23},
+{"fuel":"Wind/Solar","quantity":25},
+{"fuel":"Other","quantity":7}
+]
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Bar Transition Example</title>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="bar.js"></script>
+
+    <style type="text/css">
+        #demo { 
+            float: left;        
+        }
+
+
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+#chartID {
+    min-width: 531px;
+}
+
+
+    </style>
+ </head>
+ <body>
+
+    <div id="demo">
+        <div id="buttons">
+        <button id="data1">2015</button>
+        <button id="data2">2030 CPP</button>
+        <button id="data3">2030 No CPP</button>
+        <br>
+        </div>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg"></svg>
+    </div>
+
+    <script type="text/javascript">
+        init();
+    </script>
+
+
+ </body>
+</html>
